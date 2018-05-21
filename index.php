@@ -17,44 +17,44 @@
     	<p>This set contains working example code to help you integrate your application into the payment gateway. Below are the transaction types covered in this example.</p>
     <table align="center">
     	<tr>
-    		<td height="40" width="25%"><strong><a href="x_authorize_simple.html">Simple Authorize</a></strong><br/>x_authorize_simple.html</td>
+    		<td height="40" width="25%"><strong><a href="x_authorize_simple.php">Simple Authorize</a></strong><br/>x_authorize_simple.html</td>
     		<td style="padding-bottom:5px">Simple authorization transaction. Includes only basic fields like Card Number, Expiry, Card Security Code, Amount, Currency, IP Address and Order & Transaction References. Requires merchant to specify Order & Transaction IDs.</td>
     	</tr>
     	<tr>
-    		<td height="40" width="25%"><strong><a href="x_pay_simple.html">Simple Pay</a></strong><br/>x_pay_simple.html</td>
+    		<td height="40" width="25%"><strong><a href="x_pay_simple.php">Simple Pay</a></strong><br/>x_pay_simple.html</td>
     		<td style="padding-bottom:5px">Simple pay (aka purchase) transaction. Includes only basic fields like Card Number, Expiry, Card Security Code, Amount, Currency, IP Address and Order & Transaction References. Requires merchant to specify Order & Transaction IDs.</td>
     	</tr>
     	<tr>
-    		<td height="40" width="25%"><strong><a href="x_capture_simple.html">Simple Capture</a></strong><br/>x_capture_simple.html</td>
+    		<td height="40" width="25%"><strong><a href="x_capture_simple.php">Simple Capture</a></strong><br/>x_capture_simple.html</td>
     		<td style="padding-bottom:5px">Captures against an existing Order. Includes the Amount and Currency as well as requiring the merchant to specify the Transaction ID for the capture and the Order ID created from the initial authorisation operation.</td>
     	</tr>
     	<tr>
-    		<td height="40" width="25%"><strong><a href="x_refund_simple.html">Simple Refund</a></strong><br/>x_refund_simple.html</td>
+    		<td height="40" width="25%"><strong><a href="x_refund_simple.php">Simple Refund</a></strong><br/>x_refund_simple.html</td>
     		<td style="padding-bottom:5px">Refunds against an existing Order. Includes the Amount and Currency as well as requiring the merchant to specify the Transaction ID for the refund and the Order ID created from the initial authorisation or pay operation.</td>
     	</tr>
 		<tr>
-    		<td height="40" width="25%"><strong><a href="x_void_simple.html">Simple Void</a></strong><br/>x_void_simple.html</td>
+    		<td height="40" width="25%"><strong><a href="x_void_simple.php">Simple Void</a></strong><br/>x_void_simple.html</td>
     		<td style="padding-bottom:5px">Voids a previous transaction. Requires the merchant to specify the Transaction ID and Order ID of the transaction to void. Includes basic fields like Transaction Reference.</td>
     	</tr>
         <tr>
-            <td height="40" width="25%"><strong><a href="x_verify_simple.html">Simple Verify</a></strong><br/>x_verify_simple.html</td>
+            <td height="40" width="25%"><strong><a href="x_verify_simple.php">Simple Verify</a></strong><br/>x_verify_simple.html</td>
             <td style="padding-bottom:5px">Performs a card verification transaction. Includes only basic fields like Card Number, Expiry, Card Security Code, Currency and Order & Transaction References. Requires merchant to specify Order & Transaction IDs.</td>
         </tr>
         <tr>
-            <td height="40" width="25%"><strong><a href="x_initiate_simple.html">Simple Initiate Browser Payment</a></strong><br/>x_initiate_simple.html</td>
+            <td height="40" width="25%"><strong><a href="x_initiate_simple.php">Simple Initiate Browser Payment</a></strong><br/>x_initiate_simple.html</td>
             <td style="padding-bottom:5px">Initiates a browser payment, for example, PAYPAL. Requires you to specify the amount, currency, and the return URL (the URL to which the payer's browser is redirected on completing the payment at the payment provider's website).
                 With PayPal, you must also specify the operation and the payment confirmation flow.</td>
         </tr>
         <tr>
-            <td height="40" width="25%"><strong><a href="x_confirm_simple.html">Simple Confirm Browser Payment</a></strong><br/>x_confirm_simple.html</td>
+            <td height="40" width="25%"><strong><a href="x_confirm_simple.php">Simple Confirm Browser Payment</a></strong><br/>x_confirm_simple.html</td>
             <td style="padding-bottom:5px">Confirms a successfully initiated browser payment. Requires you to specify the amount and currency.</td>
         </tr>
         <tr>
-            <td height="40" width="25%"><strong><a href="x_update_authorization_simple.html">Simple Authorization Update</a></strong><br/>x_update_authorization_simple.html</td>
+            <td height="40" width="25%"><strong><a href="x_update_authorization_simple.php">Simple Authorization Update</a></strong><br/>x_update_authorization_simple.html</td>
             <td style="padding-bottom:5px">Updates an existing authorization. If successful, the authorization period of the existing authorization is extended and/or the authorization amount is updated.</td>
         </tr>
         <tr>
-            <td height="40" width="25%"><strong><a href="x_retrieve_transaction_simple.html">Simple Retrieve Transaction</a></strong><br/>x_retrieve_transaction_simple.html</td>
+            <td height="40" width="25%"><strong><a href="x_retrieve_transaction_simple.php">Simple Retrieve Transaction</a></strong><br/>x_retrieve_transaction_simple.html</td>
             <td style="padding-bottom:5px">Retrieves the details of a transaction. The order ID and transaction ID must identify the transaction you wish to retrieve the details for.</td>
         </tr>
     </table>
